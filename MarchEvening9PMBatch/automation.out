@@ -1,0 +1,27 @@
+Initializing properties files.....
+Opened the Browser :- chrome
+Navigated to url :- https://www.amazon.in
+Initializing properties files.....
+Opened the Browser :- chrome
+Navigated to url :- https://www.amazon.in
+Selected the option :- Books by using locator :- searchDropdownBox
+Entered the value :- Harry Potter by using the locator :- twotabsearchtextbox
+Clicked on Element by using the locator : - //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
+Initializing properties files.....
+Opened the Browser :- chrome
+Navigated to url :- https://www.amazon.in
+Selected the option :- Books by using locator :- searchDropdownBox
+Entered the value :- Harry Potter by using the locator :- twotabsearchtextbox
+Clicked on Element by using the locator : - //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
+Initializing properties files.....
+Opened the Browser :- chrome
+Navigated to url :- https://www.amazon.in
+Selected the option :- Books by using locator :- searchDropdownBox
+Entered the value :- Harry Potter by using the locator :- twotabsearchtextbox
+Clicked on Element by using the locator : - //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
+Initializing properties files.....
+Opened the Browser :- chrome
+Navigated to url :- https://www.amazon.in
+Selected the option :- Books by using locator :- searchDropdownBox
+Entered the value :- Harry Potter by using the locator :- twotabsearchtextbox
+Clicked on Element by using the locator : - //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']

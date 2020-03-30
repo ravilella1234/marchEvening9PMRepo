@@ -3,10 +3,12 @@ package com.launchings;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -41,6 +43,9 @@ public class BaseTest
 		String url = subprop.getProperty("amazonurl");
 		System.out.println(url);
 		
+		fis=new FileInputStream(projectpath+"//log4jconfig.properties");
+		PropertyConfigurator.configure(fis);
+		
 	}
 	
 	
@@ -49,6 +54,7 @@ public class BaseTest
 		if(p.getProperty(browser).equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\latest Drivers\\chromedriver.exe");
+			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "false");
 			
 			ChromeOptions option=new ChromeOptions();
 			option.addArguments("user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6");
