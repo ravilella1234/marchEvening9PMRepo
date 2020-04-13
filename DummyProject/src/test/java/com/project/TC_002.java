@@ -10,7 +10,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class TC_002 {
+public class TC_002 
+{
+	
   @Test(priority = 1)
   public void f() 
   {
