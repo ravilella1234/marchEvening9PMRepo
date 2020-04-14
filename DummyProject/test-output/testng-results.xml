@@ -1,153 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Clicked on Image Link]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Image Link]]>
-    </line>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="144258" started-at="2020-04-13T16:28:35Z" finished-at="2020-04-13T16:30:59Z">
+  <suite name="Suite" duration-ms="16444" started-at="2020-04-14T16:14:34Z" finished-at="2020-04-14T16:14:50Z">
     <groups>
+      <group name="regression">
+        <method signature="TNG_001.amazon()[pri:0, instance:com.testng.TNG_001@f2f2cc1]" name="amazon" class="com.testng.TNG_001"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TNG_001.amazon()[pri:0, instance:com.testng.TNG_001@f2f2cc1]" name="amazon" class="com.testng.TNG_001"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="FirefoxTest" duration-ms="92468" started-at="2020-04-13T16:28:35Z" finished-at="2020-04-13T16:30:07Z">
-      <class name="com.testng.CheckBox1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.testng.CheckBox1@6295d394]" name="beforeMethod" is-config="true" duration-ms="20519" started-at="2020-04-13T16:28:35Z" finished-at="2020-04-13T16:28:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.testng.CheckBox1@6295d394]" name="checkboxTest" duration-ms="733" started-at="2020-04-13T16:28:55Z" finished-at="2020-04-13T16:28:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.CheckBox1@6295d394]" name="afterMethod" is-config="true" duration-ms="4375" started-at="2020-04-13T16:28:56Z" finished-at="2020-04-13T16:29:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.testng.CheckBox1 -->
-      <class name="com.testng.LinksTesting1">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testng.LinksTesting1@475e586c]" name="setup" is-config="true" duration-ms="12957" started-at="2020-04-13T16:29:00Z" finished-at="2020-04-13T16:29:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="linktesting1()[pri:0, instance:com.testng.LinksTesting1@475e586c]" name="linktesting1" duration-ms="2236" started-at="2020-04-13T16:29:13Z" finished-at="2020-04-13T16:29:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on Image Link]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- linktesting1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.LinksTesting1@475e586c]" name="tearDown" is-config="true" duration-ms="3606" started-at="2020-04-13T16:29:16Z" finished-at="2020-04-13T16:29:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testng.LinksTesting1 -->
+    <test name="Test" duration-ms="16444" started-at="2020-04-14T16:14:34Z" finished-at="2020-04-14T16:14:50Z">
       <class name="com.testng.TNG_001">
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.testng.TNG_001@657c8ad9]" name="startProcess" is-config="true" duration-ms="12997" started-at="2020-04-13T16:29:19Z" finished-at="2020-04-13T16:29:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startProcess -->
-        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testng.TNG_001@657c8ad9]" name="amazon" duration-ms="2939" started-at="2020-04-13T16:29:32Z" finished-at="2020-04-13T16:29:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.testng.TNG_001@657c8ad9]" name="endProcess" is-config="true" duration-ms="5612" started-at="2020-04-13T16:29:35Z" finished-at="2020-04-13T16:29:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endProcess -->
-      </class> <!-- com.testng.TNG_001 -->
-      <class name="com.testng.RadioButton1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.testng.RadioButton1@436a4e4b]" name="beforeMethod" is-config="true" duration-ms="18013" started-at="2020-04-13T16:29:41Z" finished-at="2020-04-13T16:29:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.testng.RadioButton1@436a4e4b]" name="checkboxTest" duration-ms="3196" started-at="2020-04-13T16:29:59Z" finished-at="2020-04-13T16:30:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.RadioButton1@436a4e4b]" name="afterMethod" is-config="true" duration-ms="5226" started-at="2020-04-13T16:30:02Z" finished-at="2020-04-13T16:30:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.testng.RadioButton1 -->
-    </test> <!-- FirefoxTest -->
-    <test name="chromeTest" duration-ms="51764" started-at="2020-04-13T16:30:07Z" finished-at="2020-04-13T16:30:59Z">
-      <class name="com.testng.CheckBox1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.testng.CheckBox1@2cbb3d47]" name="beforeMethod" is-config="true" duration-ms="8733" started-at="2020-04-13T16:30:07Z" finished-at="2020-04-13T16:30:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.testng.CheckBox1@2cbb3d47]" name="checkboxTest" duration-ms="3652" started-at="2020-04-13T16:30:16Z" finished-at="2020-04-13T16:30:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.CheckBox1@2cbb3d47]" name="afterMethod" is-config="true" duration-ms="1211" started-at="2020-04-13T16:30:20Z" finished-at="2020-04-13T16:30:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.testng.CheckBox1 -->
-      <class name="com.testng.LinksTesting1">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testng.LinksTesting1@527e5409]" name="setup" is-config="true" duration-ms="8340" started-at="2020-04-13T16:30:21Z" finished-at="2020-04-13T16:30:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="linktesting1()[pri:0, instance:com.testng.LinksTesting1@527e5409]" name="linktesting1" duration-ms="2005" started-at="2020-04-13T16:30:29Z" finished-at="2020-04-13T16:30:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on Image Link]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- linktesting1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.LinksTesting1@527e5409]" name="tearDown" is-config="true" duration-ms="799" started-at="2020-04-13T16:30:31Z" finished-at="2020-04-13T16:30:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testng.LinksTesting1 -->
-      <class name="com.testng.TNG_001">
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.testng.TNG_001@1198b989]" name="startProcess" is-config="true" duration-ms="9380" started-at="2020-04-13T16:30:32Z" finished-at="2020-04-13T16:30:41Z">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.testng.TNG_001@f2f2cc1]" name="startProcess" is-config="true" duration-ms="9870" started-at="2020-04-14T16:14:34Z" finished-at="2020-04-14T16:14:44Z">
           <params>
             <param index="0">
               <value>
@@ -158,36 +24,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startProcess -->
-        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testng.TNG_001@1198b989]" name="amazon" duration-ms="2293" started-at="2020-04-13T16:30:41Z" finished-at="2020-04-13T16:30:44Z">
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testng.TNG_001@f2f2cc1]" name="amazon" duration-ms="4746" started-at="2020-04-14T16:14:44Z" finished-at="2020-04-14T16:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.testng.TNG_001@1198b989]" name="endProcess" is-config="true" duration-ms="889" started-at="2020-04-13T16:30:44Z" finished-at="2020-04-13T16:30:45Z">
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.testng.TNG_001@f2f2cc1]" name="endProcess" is-config="true" duration-ms="1777" started-at="2020-04-14T16:14:49Z" finished-at="2020-04-14T16:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endProcess -->
       </class> <!-- com.testng.TNG_001 -->
-      <class name="com.testng.RadioButton1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.testng.RadioButton1@7ff95560]" name="beforeMethod" is-config="true" duration-ms="10297" started-at="2020-04-13T16:30:45Z" finished-at="2020-04-13T16:30:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.testng.RadioButton1@7ff95560]" name="checkboxTest" duration-ms="3274" started-at="2020-04-13T16:30:55Z" finished-at="2020-04-13T16:30:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.RadioButton1@7ff95560]" name="afterMethod" is-config="true" duration-ms="875" started-at="2020-04-13T16:30:58Z" finished-at="2020-04-13T16:30:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.testng.RadioButton1 -->
-    </test> <!-- chromeTest -->
-  </suite> <!-- RegressionSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
