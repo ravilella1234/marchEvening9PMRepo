@@ -1,6 +1,6 @@
-[1586880875.244][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16693
-[1586880875.244][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1586880876.247][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND InitSession {
+[1587399885.073][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 47600
+[1587399885.073][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587399886.033][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,14 +18,14 @@
       }
    }
 }
-[1586880876.267][INFO]: Populating Preferences file: {
+[1587399886.058][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13231352727728355",
+   "account_tracker_service_last_update": "13231873312156544",
    "alternate_error_pages": {
       "enabled": false
    },
    "autocomplete": {
-      "retention_policy_last_version": 80
+      "retention_policy_last_version": 81
    },
    "autofill": {
       "credit_card_enabled": false,
@@ -52,16 +52,34 @@
       "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "83644" ],
       "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "83644" ],
       "last_update_date": "13231276200000000",
+      "last_week_services_downstream_background_kb": {
+
+      },
+      "last_week_services_downstream_foreground_kb": {
+         "35473769": 0,
+         "35565745": 5,
+         "50464499": 1,
+         "67052219": 0,
+         "78917933": 240
+      },
+      "last_week_user_traffic_contenttype_downstream_kb": {
+
+      },
       "network_properties": {
 
       },
-      "this_week_number": 2623,
+      "this_week_number": 2624,
+      "this_week_services_downstream_background_kb": {
+
+      },
       "this_week_services_downstream_foreground_kb": {
          "35473769": 0,
-         "35565745": 4,
-         "50464499": 1,
-         "67052219": 0,
-         "78917933": 200
+         "35565745": 1,
+         "67052219": 1,
+         "78917933": 40
+      },
+      "this_week_user_traffic_contenttype_downstream_kb": {
+
       }
    },
    "distribution": {
@@ -73,6 +91,9 @@
    },
    "dns_prefetching": {
       "enabled": false
+   },
+   "domain_diversity": {
+      "last_reporting_timestamp": "13231873321000910"
    },
    "extensions": {
       "alerts": {
@@ -101,16 +122,26 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "d0e34dab-da5d-41ba-a35c-93e109415ad6"
+         "signin_scoped_device_id": "0eb16db0-1a0e-4984-a379-42ac031c9296"
       }
    },
    "http_original_content_length": "83644",
    "http_received_content_length": "83644",
+   "invalidation": {
+      "per_sender_topics_to_handler": {
+         "1013309121859": {
+
+         },
+         "8181035976": {
+
+         }
+      }
+   },
    "invalidator": {
       "client_id": "ph0jANCDm8jnw2eaMk4LZw=="
    },
    "language_model_counters": {
-      "en": 3
+      "en": 5
    },
    "media": {
       "device_id_salt": "33F810E2C28D19914DE40A9DDF96E731",
@@ -148,6 +179,9 @@
             "app_banner": {
 
             },
+            "ar": {
+
+            },
             "auto_select_certificate": {
 
             },
@@ -170,7 +204,13 @@
 
             },
             "client_hints": {
-
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13231873317566205",
+                  "setting": {
+                     "client_hints": [ 4, 5, 6 ],
+                     "expiration_time": 1587486117.566191
+                  }
+               }
             },
             "clipboard": {
 
@@ -269,6 +309,9 @@
             "protocol_handler": {
 
             },
+            "safe_browsing_url_check_data": {
+
+            },
             "sensors": {
 
             },
@@ -280,12 +323,21 @@
             },
             "site_engagement": {
                "http://echoecho.com:80,*": {
-                  "last_modified": "13231354440286814",
+                  "last_modified": "13231873313999241",
                   "setting": {
-                     "lastEngagementTime": 1.3231354440286776e+16,
+                     "lastEngagementTime": 1.3231844472142892e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 6.0,
                      "rawScore": 6.0
+                  }
+               },
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13231873317605310",
+                  "setting": {
+                     "lastEngagementTime": 1.323187331760528e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 4.5,
+                     "rawScore": 4.312559044607999
                   }
                }
             },
@@ -305,6 +357,9 @@
 
             },
             "usb_guard": {
+
+            },
+            "vr": {
 
             }
          },
@@ -330,7 +385,7 @@
       },
       "exit_type": "Crashed",
       "exited_cleanly": true,
-      "last_engagement_time": "13231354440286777",
+      "last_engagement_time": "13231873317605280",
       "managed_user_id": "",
       "name": "MarchChromeProfile",
       "password_manager_enabled": false,
@@ -346,6 +401,10 @@
       "DiceMigrationComplete": true,
       "allowed": true
    },
+   "spellcheck": {
+      "dictionaries": [ "en-US" ],
+      "dictionary": ""
+   },
    "token_service": {
       "dice_compatible": true
    },
@@ -357,14 +416,21 @@
    },
    "web_apps": {
       "system_web_app_last_installed_language": "en-US",
-      "system_web_app_last_update": "80.0.3987.149"
+      "system_web_app_last_update": "81.0.4044.113"
    }
 }
-[1586880876.286][INFO]: Populating Local State file: {
+[1587399886.074][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
    "hardware_acceleration_mode_previous": true,
+   "legacy": {
+      "profile": {
+         "name": {
+            "migrated": true
+         }
+      }
+   },
    "os_crypt": {
       "encrypted_key": "RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAABpSUmWg6oRRZKO7WQM3MqtAAAAAAIAAAAAABBmAAAAAQAAIAAAAHDgh3wCUAWiRhC8fjhjDPFnkXJqLHnZQ6a0S7x/CBL7AAAAAA6AAAAAAgAAIAAAAGuzOrzEHeL/hmK6YO7QrHISI9oakJRTc7yqD3YM9ds4MAAAAIjxoqvftcDl1iqhFlIQQuUUjVmUflPAbR8m1SUTFfBnrvscLn94aGMhYGz6UQV+tUAAAABWGx8gdf//rbQPLFdZqc+xJlia80jug2YrdyAbuITZRz80x3Ye3WK4rwpjNToST2eLkeusBApoW74FugSGW23v"
    },
@@ -373,12 +439,12 @@
       "os_password_last_changed": "13231352603700873"
    },
    "policy": {
-      "last_statistics_update": "13231354332207699"
+      "last_statistics_update": "13231873311191973"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1586878962.913259,
+            "active_time": 1587399711.817052,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_52",
             "background_apps": false,
             "gaia_given_name": "",
@@ -401,6 +467,9 @@
          "next_bucket_index": 2
       }
    },
+   "profile_network_context_service": {
+      "http_cache_finch_experiment_groups": "None None None"
+   },
    "rappor": {
       "cohort_seed": 222,
       "last_daily_sample": "13231352577335676",
@@ -418,24 +487,24 @@
    },
    "subresource_filter": {
       "ruleset_version": {
-         "checksum": 318751814,
-         "content": "9.11.0",
-         "format": 26
+         "checksum": 0,
+         "content": "",
+         "format": 0
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13231354332742684",
+      "last_daily_sample": "13231873311834880",
       "max_tabs_per_window": 1,
-      "total_tab_count_max": 2,
-      "window_count_max": 2
+      "total_tab_count_max": 1,
+      "window_count_max": 1
    },
    "ukm": {
       "persisted_logs": [  ]
    },
    "uninstall_metrics": {
       "installation_date2": "1574898982",
-      "launch_count": "59",
-      "page_load_count": "308",
+      "launch_count": "61",
+      "page_load_count": "318",
       "uptime_sec": "4431"
    },
    "updateclientdata": {
@@ -632,10 +701,20 @@
          "hash": "eTG4mRUMYiarudK+v/XNTXleXpk=",
          "signature": "g9JoQg0Jt2hCPqwPt8tgskO/tFupsOf6OEW1nga29HU=",
          "timestamp": "1586880834"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kCVlI3GTmmTNv/mVVIwMJAz0DP2NLCXM/QxFLXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAxBig0tjM2MjMK42CoszOLNTASW2kk0NHz4ufa/vBKDBqPBNS6LBjYnLg4GAQYpBiMGKwZf9Z0nnUJfS510SmVgaLDPEuPicU/NK83MS/XMK0nNEXjcKyDBosDQxMjQxcjgJCDAUsHYwMi4gpHxAiPrDUYmLy7eXGWrONF5y4UdA1iimDgYklicPZxcsnhAVkgwKLBZMDgwNDB++P/7HesMRgYjXs4w3yOXH8jG6kgxCTAa8XMecnnJ9cFvN7OAAFBAECjwuilDd4cQ3x8BRqAAEwCCpkiIGAEAAA==",
+         "hash": "XO+ZwphTtqFXGL4Ya2DfAHnQHZY=",
+         "signature": "x9GBiGjLKMSQW3ws0LypDlpk8jyGQm6RSBOWLAYtYW4=",
+         "timestamp": "1586880876"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kC1lI3GTmmTNv/mVVIwMJAz0DP2NLCXM/QxFLXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAxBig0tjM2MjMK42CoszOLNTASW2kk0NHz4ufa/vBKDBqPBNS6LBjYnLg4GAQYpBiMGKwZf9Z0nnUJfS510SmVgaLDPEuPicU/NK83MS/XMK0nNEXjcKyDBosDQxMjQxcjgJCDAWsHYwMi4gpHxAiPLDUYmLy7eXGWrONF5y4UdA1iimDgYklicPZxcsnhAVkgwKLBZMDgwNDB++P/7HesMRgYjXs4w3yOXH8jG6kgxCTAa8XMecnnJ9cFvN7OAAFBAECjwuilDd4cQ3x8BRqAAEwD/g4NNGAEAAA==",
+         "hash": "9yodFP265EvVSa9dQIJqaYllUI8=",
+         "signature": "1ZPFChQWeCHUAZJjaNjiKBKUDRIcNzBkCENm+ONFC2A=",
+         "timestamp": "1587399711"
       } ],
       "last_seen": {
          "BrowserMetrics": "13230750127562810",
-         "CrashpadMetrics": "13231354421742203"
+         "CrashpadMetrics": "13231354476372630"
       },
       "low_entropy_source3": 4187,
       "machine_id": 4809022,
@@ -645,11 +724,11 @@
          "signature": "hArewAWV7OMjGxpiamDEU8mkL+zTd5iGIHRk6w+ePRs=",
          "timestamp": "1586277121"
       } ],
-      "session_id": 58,
+      "session_id": 60,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13231354434608131",
+         "browser_last_live_timestamp": "13231873311337074",
          "child_process_crash_count": 0,
          "crash_count": 0,
          "debugger_not_present": 1,
@@ -663,41 +742,42 @@
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
          "launch_count": 1,
-         "page_load_count": 4,
+         "page_load_count": 5,
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 5,
-         "saved_system_profile": "CJSWv/MFEhA4MC4wLjM5ODcuMTQ5LTY0GOCh+O4FIgVlbi1VUyoYCgpXaW5kb3dzIE5UEgoxMC4wLjE4MzYyMlYKBng4Nl82NBClPhiAgPD5rf8fIgAoATDWCjiABkIKCAAQABoAMgA6AE0nuclCVesayUJlAACAP2oWCgxHZW51aW5lSW50ZWwQ440QGAQgAIIBAIoBAEoKDW0jOl4VnqcTQVAEWgIIAGIEQ0hCRGoMCAAQABgAIAY4AEAAgAHw//vuBZgBAA==",
-         "saved_system_profile_hash": "7A8A533CD4E7ADB684BAF1A6A42DD5CD6BB5C65B",
+         "renderer_launch_count": 4,
+         "saved_system_profile": "COm42PQFEhA4MS4wLjQwNDQuMTEzLTY0GOCh+O4FIgVlbi1VUyoYCgpXaW5kb3dzIE5UEgoxMC4wLjE4MzYyMlYKBng4Nl82NBClPhiAgMjVn/8fIgAoATDWCjiABkIKCAAQABoAMgA6AE0nuclCVesayUJlAACAP2oWCgxHZW51aW5lSW50ZWwQ440QGAQgAIIBAIoBAEoKDW0jOl4VnqcTQVAEWgIIAGIEQ0hCRGoMCAAQABgAIAY4AEAAgAHw//vuBZgBAPgB2yCAAv///////////wE=",
+         "saved_system_profile_hash": "BB6EF6EB51D9031826AD6A21E3F256B43233DF5C",
          "session_end_completed": true,
-         "stats_buildtime": "1584384788",
-         "stats_version": "80.0.3987.149-64",
+         "stats_buildtime": "1586895977",
+         "stats_version": "81.0.4044.113-64",
          "system_crash_count": 0,
          "version_mismatch_count": 0
       }
    },
-   "variations_crash_streak": 15,
+   "variations_crash_streak": 17,
    "was": {
       "restarted": false
    }
 }
-[1586880876.312][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1586880876.312][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir13428_2005844161\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
-[1586880877.749][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1586880879.602][WARNING]: Timed out connecting to Chrome, retrying...
-[1586880879.604][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1586880881.705][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE InitSession {
+[1587399886.097][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1587399886.097][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir1436_89634706\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
+[1587399887.201][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1587399887.337][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587399889.305][WARNING]: Timed out connecting to Chrome, retrying...
+[1587399889.321][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587399891.721][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
-      "browserVersion": "80.0.3987.149",
+      "browserVersion": "81.0.4044.113",
       "chrome": {
          "chromedriverVersion": "80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882})",
          "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:51991"
+         "debuggerAddress": "localhost:54385"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -714,83 +794,59 @@
       },
       "unhandledPromptBehavior": "dismiss and notify"
    },
-   "sessionId": "127bfbdb6a6abf52ff561705ff8f3cdf"
+   "sessionId": "0c657f90448f85311ad287c6ed4786ad"
 }
-[1586880881.807][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND Navigate {
+[1587399891.807][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Navigate {
    "url": "https://www.amazon.in"
 }
-[1586880881.807][INFO]: Waiting for pending navigations...
-[1586880881.813][INFO]: Done waiting for pending navigations. Status: ok
-[1586880882.193][INFO]: Waiting for pending navigations...
-[1586880882.932][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586880883.400][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586880883.674][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586880884.272][INFO]: Done waiting for pending navigations. Status: ok
-[1586880884.272][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE Navigate
-[1586880884.308][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND FindElement {
+[1587399891.807][INFO]: Waiting for pending navigations...
+[1587399891.811][INFO]: Done waiting for pending navigations. Status: ok
+[1587399892.178][INFO]: Waiting for pending navigations...
+[1587399892.912][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587399893.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587399894.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587399894.279][INFO]: Done waiting for pending navigations. Status: ok
+[1587399894.279][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Navigate
+[1587399894.320][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND FindElement {
    "using": "css selector",
    "value": "#searchDropdownBox"
 }
-[1586880884.308][INFO]: Waiting for pending navigations...
-[1586880884.374][INFO]: Done waiting for pending navigations. Status: ok
-[1586880884.457][INFO]: Waiting for pending navigations...
-[1586880884.487][INFO]: Done waiting for pending navigations. Status: ok
-[1586880884.487][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "61aaa29e-603c-4875-826f-f386365ca648"
+[1587399894.320][INFO]: Waiting for pending navigations...
+[1587399894.484][INFO]: Done waiting for pending navigations. Status: ok
+[1587399894.573][INFO]: Waiting for pending navigations...
+[1587399894.774][INFO]: Done waiting for pending navigations. Status: ok
+[1587399894.775][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9a4c3844-cab6-4b8d-bc10-7c9a941db828"
 }
-[1586880884.558][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND TypeElement {
-   "id": "61aaa29e-603c-4875-826f-f386365ca648",
+[1587399894.812][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND TypeElement {
+   "id": "9a4c3844-cab6-4b8d-bc10-7c9a941db828",
    "text": "Books",
    "value": [ "B", "o", "o", "k", "s" ]
 }
-[1586880884.558][INFO]: Waiting for pending navigations...
-[1586880884.688][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.117][INFO]: Waiting for pending navigations...
-[1586880885.123][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.123][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE TypeElement
-[1586880885.141][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND FindElement {
+[1587399894.812][INFO]: Waiting for pending navigations...
+[1587399894.839][INFO]: Done waiting for pending navigations. Status: ok
+[1587399895.378][INFO]: Waiting for pending navigations...
+[1587399895.387][INFO]: Done waiting for pending navigations. Status: ok
+[1587399895.387][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE TypeElement
+[1587399895.406][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND FindElement {
    "using": "css selector",
-   "value": "#twotabsearchtextbox"
+   "value": "#twotabsearchtextbo"
 }
-[1586880885.141][INFO]: Waiting for pending navigations...
-[1586880885.142][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.165][INFO]: Waiting for pending navigations...
-[1586880885.170][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.170][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "ab2a005d-ca3a-4093-a786-cb821e1450cb"
-}
-[1586880885.181][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND TypeElement {
-   "id": "ab2a005d-ca3a-4093-a786-cb821e1450cb",
-   "text": "Harry Potter",
-   "value": [ "H", "a", "r", "r", "y", " ", "P", "o", "t", "t", "e", "r" ]
-}
-[1586880885.181][INFO]: Waiting for pending navigations...
-[1586880885.182][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.857][INFO]: Waiting for pending navigations...
-[1586880885.921][INFO]: Done waiting for pending navigations. Status: ok
-[1586880885.921][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE TypeElement
-[1586880885.930][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']"
-}
-[1586880885.930][INFO]: Waiting for pending navigations...
-[1586880885.958][INFO]: Done waiting for pending navigations. Status: ok
-[1586880886.056][INFO]: Waiting for pending navigations...
-[1586880886.079][INFO]: Done waiting for pending navigations. Status: ok
-[1586880886.079][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "3df842b8-ce0e-44cf-ab35-4b9eb78fba0c"
-}
-[1586880886.101][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND ClickElement {
-   "id": "3df842b8-ce0e-44cf-ab35-4b9eb78fba0c"
-}
-[1586880886.101][INFO]: Waiting for pending navigations...
-[1586880886.118][INFO]: Done waiting for pending navigations. Status: ok
-[1586880886.566][INFO]: Waiting for pending navigations...
-[1586880887.457][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586880888.848][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586880889.020][INFO]: Done waiting for pending navigations. Status: ok
-[1586880889.020][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE ClickElement
-[1586880890.101][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] COMMAND Quit {
+[1587399895.406][INFO]: Waiting for pending navigations...
+[1587399895.407][INFO]: Done waiting for pending navigations. Status: ok
+[1587399895.442][INFO]: Waiting for pending navigations...
+[1587399895.444][INFO]: Done waiting for pending navigations. Status: ok
+[1587399895.444][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbo"}
+  (Session info: chrome=81.0.4044.113)
+[1587399895.607][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Screenshot {
 
 }
-[1586880890.268][INFO]: [127bfbdb6a6abf52ff561705ff8f3cdf] RESPONSE Quit
+[1587399895.607][INFO]: Waiting for pending navigations...
+[1587399895.609][INFO]: Done waiting for pending navigations. Status: ok
+[1587399896.099][INFO]: Waiting for pending navigations...
+[1587399896.100][INFO]: Done waiting for pending navigations. Status: ok
+[1587399896.101][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABAoAAAJACAYAAAAEt4QcAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVPX6wPEPMwzDLqCAbCIhmkColD+l3DcqFbObkgVt2iJlpS1mZWpappW22qZ1XVrUriZppZZpmkIWLqGlSEqiyCKyw8ww8PtjmIFhR1EWn/fr1b2cOct8z..."
+[1587399897.028][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Quit {
+
+}
+[1587399897.179][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Quit

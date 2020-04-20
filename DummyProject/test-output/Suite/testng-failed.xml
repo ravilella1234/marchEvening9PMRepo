@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listners.Listener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.testng.RadioButton1">
+      <class name="com.testng.TNG_001">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="checkboxTest"/>
+          <include name="endProcess"/>
+          <include name="amazon"/>
+          <include name="startProcess"/>
         </methods>
-      </class> <!-- com.testng.RadioButton1 -->
+      </class> <!-- com.testng.TNG_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
