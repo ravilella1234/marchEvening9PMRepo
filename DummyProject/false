@@ -1,6 +1,6 @@
-[1587399885.073][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 47600
-[1587399885.073][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1587399886.033][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND InitSession {
+[1587486207.446][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 44711
+[1587486207.446][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587486208.442][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1587399886.058][INFO]: Populating Preferences file: {
+[1587486208.446][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
    "account_tracker_service_last_update": "13231873312156544",
    "alternate_error_pages": {
@@ -74,9 +74,9 @@
       },
       "this_week_services_downstream_foreground_kb": {
          "35473769": 0,
-         "35565745": 1,
-         "67052219": 1,
-         "78917933": 40
+         "35565745": 3,
+         "67052219": 3,
+         "78917933": 120
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
 
@@ -122,7 +122,7 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "0eb16db0-1a0e-4984-a379-42ac031c9296"
+         "signin_scoped_device_id": "a23e05bd-4162-49e2-841e-1b7aa24b561d"
       }
    },
    "http_original_content_length": "83644",
@@ -141,7 +141,7 @@
       "client_id": "ph0jANCDm8jnw2eaMk4LZw=="
    },
    "language_model_counters": {
-      "en": 5
+      "en": 7
    },
    "media": {
       "device_id_salt": "33F810E2C28D19914DE40A9DDF96E731",
@@ -205,10 +205,10 @@
             },
             "client_hints": {
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13231873317566205",
+                  "last_modified": "13231957136994484",
                   "setting": {
                      "client_hints": [ 4, 5, 6 ],
-                     "expiration_time": 1587486117.566191
+                     "expiration_time": 1587569936.994469
                   }
                }
             },
@@ -323,21 +323,21 @@
             },
             "site_engagement": {
                "http://echoecho.com:80,*": {
-                  "last_modified": "13231873313999241",
+                  "last_modified": "13231957134138807",
                   "setting": {
-                     "lastEngagementTime": 1.3231844472142892e+16,
+                     "lastEngagementTime": 1.323189931414573e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 6.0,
                      "rawScore": 6.0
                   }
                },
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13231873317605310",
+                  "last_modified": "13231957137027637",
                   "setting": {
-                     "lastEngagementTime": 1.323187331760528e+16,
+                     "lastEngagementTime": 1.3231957137027608e+16,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 4.5,
-                     "rawScore": 4.312559044607999
+                     "pointsAddedToday": 7.5,
+                     "rawScore": 6.949388504410088
                   }
                }
             },
@@ -385,7 +385,7 @@
       },
       "exit_type": "Crashed",
       "exited_cleanly": true,
-      "last_engagement_time": "13231873317605280",
+      "last_engagement_time": "13231957137027609",
       "managed_user_id": "",
       "name": "MarchChromeProfile",
       "password_manager_enabled": false,
@@ -419,7 +419,7 @@
       "system_web_app_last_update": "81.0.4044.113"
    }
 }
-[1587399886.074][INFO]: Populating Local State file: {
+[1587486208.462][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -444,7 +444,7 @@
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1587399711.817052,
+            "active_time": 1587483531.836563,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_52",
             "background_apps": false,
             "gaia_given_name": "",
@@ -487,9 +487,9 @@
    },
    "subresource_filter": {
       "ruleset_version": {
-         "checksum": 0,
-         "content": "",
-         "format": 0
+         "checksum": 318751814,
+         "content": "9.11.0",
+         "format": 27
       }
    },
    "tab_stats": {
@@ -503,8 +503,8 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1574898982",
-      "launch_count": "61",
-      "page_load_count": "318",
+      "launch_count": "65",
+      "page_load_count": "338",
       "uptime_sec": "4431"
    },
    "updateclientdata": {
@@ -711,10 +711,30 @@
          "hash": "9yodFP265EvVSa9dQIJqaYllUI8=",
          "signature": "1ZPFChQWeCHUAZJjaNjiKBKUDRIcNzBkCENm+ONFC2A=",
          "timestamp": "1587399711"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kCNlIvGTle7rjxhVVIwMJQz0DPxMDERM/Q0FjXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAwNgIoNLYzNjIzCuNgqLMzizUwEltpJNDScuDr/v7wSgwajwTUuiwY2Jy4OBgEGKQYjBisGX/WdJ51CX0uddEplYGiwzxLj4nFPzSvNzEv1zCtJzRF43CsgwaLA0MTI0MXI4CQgwFrB2MDIuIKR8QIjyw1GJi8u3lxlqzjRecuFHQNYopg4GJJYnD2cXLJ4QFZIMCiwWTA4MDQwfvj/+x3rDEaGH4y3FRqY/sMAoxEvZ5jvkcsPZGN1pJgEGI34OQ+5vOT64LebWUAAKCAIFHjdlKG7Q4jvjwAjUIAJAE1EPBMoAQAA",
+         "hash": "1gxxfewd95hkEtnMpo+qp0AzOZg=",
+         "signature": "GbUmCvums53bGa/QY6uFllaWxzG/9lvGzlYgQ5JmSvA=",
+         "timestamp": "1587399886"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kCtlIvGTle7rjxhVVIwMJQz0DPxMDERM/Q0FjXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAwNgIoNLYzNjIzCuNgqLMzizUwEltpJNDScuDr/v7wSgwajwTUuiwY2Jy4OBgEGKQYjBisGX/WdJ51CX0uddEplYGiwzxLj4nFPzSvNzEv1zCtJzRF43CsgwaLA0MTI0MXI4CQgwFrB2MDIuIKR8QIjyw1GJi8u3lxlqzjRecuFHQNYopg4GJJYnD2cXLJ4QFZIMCiwWTA4MDQwfvj/+x3rDEaGH4y3FRqY/sMAoxEvZ5jvkcsPZGN1pJgEGI34OQ+5vOT64LebWUAAKCAIFHjdlKG7Q4jvjwAjUIAJAFYWR24oAQAA",
+         "hash": "RcSZzXZoFF4T/x6IjEUST/nvd78=",
+         "signature": "6bQWfoVM14XJUMc5cmYG/O7Nvt9sTN/YPfig1HNlYRE=",
+         "timestamp": "1587483531"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kCdlIvGTle7rjxhVVIwMJQz0DPxMDERM/Q0FjXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAwNgIoNLYzNjIzCuNgqLMzizUwEltpJNDScuDr/v7wSgwajwTUuiwY2Jy4OBgEGKQYjBisGX/WdJ51CX0uddEplYGiwzxLj4nFPzSvNzEv1zCtJzRF43CsgwaLA0MTI0MXI4CQgwFrB2MDIuIKR8QIjyw1GJi8u3lxlqzjRecuFHQNYopg4GJJYnD2cXLJ4QFZIMCiwWTA4MDQwfvj/+x3rDEaGH4y3FRqY/sMAoxEvZ5jvkcsPZGN1pJgEGI34OQ+5vOT64LebWUAAKCBoJMz5uilDd4cQ3x8BRimg8UBBJgCJGALiLAEAAA==",
+         "hash": "sXqPyndITIhLBEc43tsDdZ74ikQ=",
+         "signature": "olt69eVAS6xcNh41iLd91/RndwossvATfnohNN1/9nI=",
+         "timestamp": "1587485934"
+      }, {
+         "data": "H4sIAAAAAAAAAONcn98YcuvWu0kC9lIvGTle7rjxhVVIwMJQz0DPxMDERM/Q0FjXzETiwcIf71iVWFPzdEODtSS4uMIz81Lyy4sV/EKEuAwNgIoNLYzNjIzCuNgqLMzizUwEltpJNDScuDr/v7wSgwajwTUuiwY2Jy4OBgEGKQYjBisGX/WdJ51CX0uddEplYGiwzxLj4nFPzSvNzEv1zCtJzRF43CsgwaLA0MTI0MXI4CQgwFrB2MDIuIKR8QIjyw1GJi8u3lxlqzjRecuFHQNYopg4GJJYnD2cXLJ4QFZIMCiwWTA4MDQwfvj/+x3rDEaGH4y3FRqY/sMAoxEvZ5jvkcsPZGN1pJgEGI34OQ+5vOT64LebWUAAKCBoJMz5uilDd4cQ3x8BRimg8UBBJgB1n13oLAEAAA==",
+         "hash": "No4WxJhRYq55D6xhrZ8JRNxg88s=",
+         "signature": "s35iSwts4O1hJOAUDgCHLsINCxWegeVY0GC6vbC1v+k=",
+         "timestamp": "1587485956"
       } ],
       "last_seen": {
          "BrowserMetrics": "13230750127562810",
-         "CrashpadMetrics": "13231354476372630"
+         "CrashpadMetrics": "13231959545932849"
       },
       "low_entropy_source3": 4187,
       "machine_id": 4809022,
@@ -724,11 +744,11 @@
          "signature": "hArewAWV7OMjGxpiamDEU8mkL+zTd5iGIHRk6w+ePRs=",
          "timestamp": "1586277121"
       } ],
-      "session_id": 60,
+      "session_id": 64,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13231873311337074",
+         "browser_last_live_timestamp": "13231959557019135",
          "child_process_crash_count": 0,
          "crash_count": 0,
          "debugger_not_present": 1,
@@ -756,18 +776,18 @@
          "version_mismatch_count": 0
       }
    },
-   "variations_crash_streak": 17,
+   "variations_crash_streak": 21,
    "was": {
       "restarted": false
    }
 }
-[1587399886.097][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1587399886.097][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir1436_89634706\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
-[1587399887.201][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
-[1587399887.337][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1587399889.305][WARNING]: Timed out connecting to Chrome, retrying...
-[1587399889.321][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1587399891.721][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE InitSession {
+[1587486208.486][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1587486208.486][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir6084_2077474524\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
+[1587486209.543][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1587486209.860][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587486211.816][WARNING]: Timed out connecting to Chrome, retrying...
+[1587486211.817][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1587486213.931][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -777,7 +797,7 @@
          "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:54385"
+         "debuggerAddress": "localhost:57302"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -794,59 +814,58 @@
       },
       "unhandledPromptBehavior": "dismiss and notify"
    },
-   "sessionId": "0c657f90448f85311ad287c6ed4786ad"
+   "sessionId": "b0a3387ef2b8c9782bc57d3ba7d50b3e"
 }
-[1587399891.807][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Navigate {
+[1587486214.016][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND Navigate {
    "url": "https://www.amazon.in"
 }
-[1587399891.807][INFO]: Waiting for pending navigations...
-[1587399891.811][INFO]: Done waiting for pending navigations. Status: ok
-[1587399892.178][INFO]: Waiting for pending navigations...
-[1587399892.912][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587399893.576][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587399894.201][SEVERE]: Timed out receiving message from renderer: 0.100
-[1587399894.279][INFO]: Done waiting for pending navigations. Status: ok
-[1587399894.279][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Navigate
-[1587399894.320][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND FindElement {
+[1587486214.016][INFO]: Waiting for pending navigations...
+[1587486214.020][INFO]: Done waiting for pending navigations. Status: ok
+[1587486214.391][INFO]: Waiting for pending navigations...
+[1587486215.460][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587486215.812][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587486216.413][INFO]: Done waiting for pending navigations. Status: ok
+[1587486216.413][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE Navigate
+[1587486216.453][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND FindElement {
    "using": "css selector",
    "value": "#searchDropdownBox"
 }
-[1587399894.320][INFO]: Waiting for pending navigations...
-[1587399894.484][INFO]: Done waiting for pending navigations. Status: ok
-[1587399894.573][INFO]: Waiting for pending navigations...
-[1587399894.774][INFO]: Done waiting for pending navigations. Status: ok
-[1587399894.775][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "9a4c3844-cab6-4b8d-bc10-7c9a941db828"
+[1587486216.453][INFO]: Waiting for pending navigations...
+[1587486216.500][INFO]: Done waiting for pending navigations. Status: ok
+[1587486216.669][INFO]: Waiting for pending navigations...
+[1587486216.722][INFO]: Done waiting for pending navigations. Status: ok
+[1587486216.722][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "cf8e7db8-4332-4eaf-86cd-df0b48373708"
 }
-[1587399894.812][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND TypeElement {
-   "id": "9a4c3844-cab6-4b8d-bc10-7c9a941db828",
+[1587486216.763][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND TypeElement {
+   "id": "cf8e7db8-4332-4eaf-86cd-df0b48373708",
    "text": "Books",
    "value": [ "B", "o", "o", "k", "s" ]
 }
-[1587399894.812][INFO]: Waiting for pending navigations...
-[1587399894.839][INFO]: Done waiting for pending navigations. Status: ok
-[1587399895.378][INFO]: Waiting for pending navigations...
-[1587399895.387][INFO]: Done waiting for pending navigations. Status: ok
-[1587399895.387][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE TypeElement
-[1587399895.406][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND FindElement {
+[1587486216.763][INFO]: Waiting for pending navigations...
+[1587486216.779][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.138][INFO]: Waiting for pending navigations...
+[1587486217.139][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.139][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE TypeElement
+[1587486217.146][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND FindElement {
    "using": "css selector",
    "value": "#twotabsearchtextbo"
 }
-[1587399895.406][INFO]: Waiting for pending navigations...
-[1587399895.407][INFO]: Done waiting for pending navigations. Status: ok
-[1587399895.442][INFO]: Waiting for pending navigations...
-[1587399895.444][INFO]: Done waiting for pending navigations. Status: ok
-[1587399895.444][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbo"}
+[1587486217.147][INFO]: Waiting for pending navigations...
+[1587486217.148][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.170][INFO]: Waiting for pending navigations...
+[1587486217.171][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.171][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbo"}
   (Session info: chrome=81.0.4044.113)
-[1587399895.607][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Screenshot {
+[1587486217.223][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND Screenshot {
 
 }
-[1587399895.607][INFO]: Waiting for pending navigations...
-[1587399895.609][INFO]: Done waiting for pending navigations. Status: ok
-[1587399896.099][INFO]: Waiting for pending navigations...
-[1587399896.100][INFO]: Done waiting for pending navigations. Status: ok
-[1587399896.101][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABAoAAAJACAYAAAAEt4QcAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVPX6wPEPMwzDLqCAbCIhmkColD+l3DcqFbObkgVt2iJlpS1mZWpappW22qZ1XVrUriZppZZpmkIWLqGlSEqiyCKyw8ww8PtjmIFhR1EWn/fr1b2cOct8z..."
-[1587399897.028][INFO]: [0c657f90448f85311ad287c6ed4786ad] COMMAND Quit {
+[1587486217.301][INFO]: Waiting for pending navigations...
+[1587486217.308][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.768][INFO]: Waiting for pending navigations...
+[1587486217.769][INFO]: Done waiting for pending navigations. Status: ok
+[1587486217.770][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABAoAAAJACAYAAAAEt4QcAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVPX6wPEPMwzDLqCAbCIhmkColD+l3DcqFbObkgVt2iJlpS1mZWpappW22qZ1XVrUriZppZZpmkIWLqGlSEqiyCKyw8ww8PtjmIFhR1EWn/fr1b2cOct8z..."
+[1587486218.963][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] COMMAND Quit {
 
 }
-[1587399897.179][INFO]: [0c657f90448f85311ad287c6ed4786ad] RESPONSE Quit
+[1587486219.137][INFO]: [b0a3387ef2b8c9782bc57d3ba7d50b3e] RESPONSE Quit

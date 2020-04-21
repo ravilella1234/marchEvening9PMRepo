@@ -5,13 +5,13 @@
       <![CDATA[Test started Running:amazon]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\Feb-2020 Working Directory\DummyProject//failure//Mon_Apr_20_21_54_43_IST_2020.png'> <img src='D:\Feb-2020 Working Directory\DummyProject//failure//Mon_Apr_20_21_54_43_IST_2020.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\Feb-2020 Working Directory\DummyProject//failure//Tue_Apr_21_21_53_26_IST_2020.png'> <img src='D:\Feb-2020 Working Directory\DummyProject//failure//Tue_Apr_21_21_53_26_IST_2020.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Test has Failed:amazon]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="13528" started-at="2020-04-20T16:24:44Z" finished-at="2020-04-20T16:24:57Z">
+  <suite name="Suite" duration-ms="13093" started-at="2020-04-21T16:23:26Z" finished-at="2020-04-21T16:23:39Z">
     <groups>
       <group name="regression">
         <method signature="TNG_001.amazon()[pri:0, instance:com.testng.TNG_001@21507a04]" name="amazon" class="com.testng.TNG_001"/>
@@ -20,9 +20,9 @@
         <method signature="TNG_001.amazon()[pri:0, instance:com.testng.TNG_001@21507a04]" name="amazon" class="com.testng.TNG_001"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="13528" started-at="2020-04-20T16:24:44Z" finished-at="2020-04-20T16:24:57Z">
+    <test name="Test" duration-ms="13093" started-at="2020-04-21T16:23:26Z" finished-at="2020-04-21T16:23:39Z">
       <class name="com.testng.TNG_001">
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.testng.TNG_001@21507a04]" name="startProcess" is-config="true" duration-ms="10035" started-at="2020-04-20T16:24:44Z" finished-at="2020-04-20T16:24:54Z">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.testng.TNG_001@21507a04]" name="startProcess" is-config="true" duration-ms="9778" started-at="2020-04-21T16:23:26Z" finished-at="2020-04-21T16:23:36Z">
           <params>
             <param index="0">
               <value>
@@ -33,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startProcess -->
-        <test-method status="FAIL" signature="amazon()[pri:0, instance:com.testng.TNG_001@21507a04]" name="amazon" duration-ms="1295" started-at="2020-04-20T16:24:54Z" finished-at="2020-04-20T16:24:55Z">
+        <test-method status="FAIL" signature="amazon()[pri:0, instance:com.testng.TNG_001@21507a04]" name="amazon" duration-ms="781" started-at="2020-04-21T16:23:36Z" finished-at="2020-04-21T16:23:37Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbo"}
   (Session info: chrome=81.0.4044.113)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-27L8JE7', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-27L8JE7', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0c657f90448f85311ad287c6ed4786ad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0a3387ef2b8c9782bc57d3ba7d50b3e
 *** Element info: {Using=id, value=twotabsearchtextbo}]]>
             </message>
             <full-stacktrace>
@@ -51,10 +51,10 @@ Session ID: 0c657f90448f85311ad287c6ed4786ad
   (Session info: chrome=81.0.4044.113)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-27L8JE7', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-27L8JE7', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0c657f90448f85311ad287c6ed4786ad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0a3387ef2b8c9782bc57d3ba7d50b3e
 *** Element info: {Using=id, value=twotabsearchtextbo}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -106,14 +106,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Test started Running:amazon]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\Feb-2020 Working Directory\DummyProject//failure//Mon_Apr_20_21_54_43_IST_2020.png'> <img src='D:\Feb-2020 Working Directory\DummyProject//failure//Mon_Apr_20_21_54_43_IST_2020.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\Feb-2020 Working Directory\DummyProject//failure//Tue_Apr_21_21_53_26_IST_2020.png'> <img src='D:\Feb-2020 Working Directory\DummyProject//failure//Tue_Apr_21_21_53_26_IST_2020.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Test has Failed:amazon]]>
             </line>
           </reporter-output>
         </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.testng.TNG_001@21507a04]" name="endProcess" is-config="true" duration-ms="1413" started-at="2020-04-20T16:24:56Z" finished-at="2020-04-20T16:24:57Z">
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.testng.TNG_001@21507a04]" name="endProcess" is-config="true" duration-ms="1599" started-at="2020-04-21T16:23:38Z" finished-at="2020-04-21T16:23:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endProcess -->
